@@ -1,0 +1,13 @@
+Package: libprotobuf-c1-dbgsym
+Source: protobuf-c
+Version: 1.3.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Robert Edmonds <edmonds@debian.org>
+Installed-Size: 41
+Depends: libprotobuf-c1 (= 1.3.1-1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libprotobuf-c1
+Build-Ids: 41e335d600a50f1eecebad123908f4f245fcefa8

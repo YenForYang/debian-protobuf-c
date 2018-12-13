@@ -1,0 +1,6 @@
+libprotobuf-c-dev_1.3.1-1_amd64.deb libdevel optional
+libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb debug optional automatic=yes
+libprotobuf-c1_1.3.1-1_amd64.deb libs optional
+protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb debug optional automatic=yes
+protobuf-c-compiler_1.3.1-1_amd64.deb devel optional
+protobuf-c_1.3.1-1_amd64.buildinfo devel optional

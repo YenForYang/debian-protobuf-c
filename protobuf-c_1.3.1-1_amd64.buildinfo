@@ -1,0 +1,195 @@
+Format: 1.0
+Source: protobuf-c
+Binary: libprotobuf-c-dev libprotobuf-c1 protobuf-c-compiler
+Architecture: amd64
+Version: 1.3.1-1
+Checksums-Md5:
+ 268fedcdc1e824d1839aeb30d6c0cd42 203220 libprotobuf-c-dev_1.3.1-1_amd64.deb
+ 9989a3ae428f40200be24fd5560f806b 27688 libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ ee7778d086ae1e00411ae8245dd02f82 30600 libprotobuf-c1_1.3.1-1_amd64.deb
+ 05ed807280542c37ebb52d61b2aa818d 766220 protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ 1c84bcdc36891a5caae957110bf10333 82852 protobuf-c-compiler_1.3.1-1_amd64.deb
+Checksums-Sha1:
+ f5b4ef62bda5ad76b24960c0be5a789ad96c5553 203220 libprotobuf-c-dev_1.3.1-1_amd64.deb
+ 60993f8950507cf984510afdebd2246108b11c79 27688 libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ 9738ddf9a43b803ffe00168cfac4b640f3033c47 30600 libprotobuf-c1_1.3.1-1_amd64.deb
+ 7647226b17cfbf434b5b9a86462ff63bf6c8d991 766220 protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ 5b538899a6249a5e08bc1501ea673934880bd2f5 82852 protobuf-c-compiler_1.3.1-1_amd64.deb
+Checksums-Sha256:
+ dc143fa18f4caba8a4bba4edb196528ba2c1bae99606c60af14099cc3f700632 203220 libprotobuf-c-dev_1.3.1-1_amd64.deb
+ bb2bbb6e2e0d8914ccf389661ec74f08bf7d4696bb84c18485d89dbf734aadcf 27688 libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ 4699f3236e811f34f291e98559f36ce11be7be9ad4202f35a6cc7b550cd2f3e8 30600 libprotobuf-c1_1.3.1-1_amd64.deb
+ 3b7e0c5aef753ee460722d2515328704029ca28ac82744cefe153dff4e13ea3d 766220 protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ bbaa973841a628f9a9d2b4569242b2abc36b4574113536a4584637097b4572db 82852 protobuf-c-compiler_1.3.1-1_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Thu, 13 Dec 2018 04:30:56 +0100
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-10),
+ binutils-common (= 2.31.1-10),
+ binutils-x86-64-linux-gnu (= 2.31.1-10),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.32.1-0.1),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-7 (= 7.3.0-30),
+ cpp-8 (= 8.2.0-9),
+ dash (= 0.5.10.2-2),
+ debconf (= 1.5.69),
+ debhelper (= 11.5.4),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 0.45.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-2),
+ fdisk (= 2.32.1-0.1),
+ file (= 1:5.35-1),
+ findutils (= 4.6.0+git+20181018-1),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-9),
+ gawk (= 1:4.2.1+dfsg-1),
+ gcc (= 4:8.2.0-2),
+ gcc-7 (= 7.3.0-30),
+ gcc-7-base (= 7.3.0-30),
+ gcc-8 (= 8.2.0-9),
+ gcc-8-base (= 8.2.0-9),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 3.1-2),
+ groff-base (= 1.22.3-10),
+ gzip (= 1.9-2.1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56),
+ install-info (= 6.5.0.dfsg.1-4),
+ intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan4 (= 7.3.0-30),
+ libasan5 (= 8.2.0-9),
+ libatomic1 (= 8.2.0-9),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-2),
+ libaudit1 (= 1:2.8.4-2),
+ libbinutils (= 2.31.1-10),
+ libblkid1 (= 2.32.1-0.1),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.27-8),
+ libc-dev-bin (= 2.27-8),
+ libc6 (= 2.27-8),
+ libc6-dev (= 2.27-8),
+ libcap-ng0 (= 0.7.9-1),
+ libcc1-0 (= 8.2.0-9),
+ libcilkrts5 (= 7.3.0-30),
+ libcroco3 (= 0.6.12-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.245),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.170-0.5),
+ libfdisk1 (= 2.32.1-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 0.45.0-1),
+ libgcc-7-dev (= 7.3.0-30),
+ libgcc-8-dev (= 8.2.0-9),
+ libgcc1 (= 1:8.2.0-9),
+ libgcrypt20 (= 1.8.4-3),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.1-2),
+ libgmp10 (= 2:6.1.2+dfsg-3),
+ libgomp1 (= 8.2.0-9),
+ libgpg-error0 (= 1.32-3),
+ libicu63 (= 63.1-4),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-9),
+ liblsan0 (= 8.2.0-9),
+ liblz4-1 (= 1.8.2-1),
+ liblzma5 (= 5.2.4-1),
+ libmagic-mgc (= 1:5.35-1),
+ libmagic1 (= 1:5.35-1),
+ libmount1 (= 2.32.1-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx2 (= 8.2.0-9),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-1),
+ libpipeline1 (= 1.5.0-2),
+ libprotobuf-dev (= 3.6.1.3-1),
+ libprotobuf-lite17 (= 3.6.1.3-1),
+ libprotobuf17 (= 3.6.1.3-1),
+ libprotoc-dev (= 3.6.1.3-1),
+ libprotoc17 (= 3.6.1.3-1),
+ libquadmath0 (= 8.2.0-9),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-3),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.32.1-0.1),
+ libstdc++-8-dev (= 8.2.0-9),
+ libstdc++6 (= 8.2.0-9),
+ libsystemd0 (= 239-13),
+ libtinfo5 (= 6.1+20181013-1),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-9),
+ libubsan0 (= 7.3.0-30),
+ libubsan1 (= 8.2.0-9),
+ libudev1 (= 239-13),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libuuid1 (= 2.32.1-0.1),
+ libxml2 (= 2.9.8-1),
+ linux-libc-dev (= 4.18.20-2),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-1),
+ perl-base (= 5.28.1-1),
+ perl-modules-5.28 (= 5.28.1-1),
+ pkg-config (= 0.29-4),
+ po-debconf (= 1.0.21),
+ protobuf-compiler (= 3.6.1.3-1),
+ readline-common (= 7.0-5),
+ sed (= 4.5-2),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.92~beta-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.32.1-0.1),
+ xz-utils (= 5.2.4-1),
+ zlib1g (= 1:1.2.11.dfsg-1),
+ zlib1g-dev (= 1:1.2.11.dfsg-1)
+Environment:
+ AR="xiar"
+ CC="icc"
+ CXX="icpc"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=8"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/testproto/protobuf-c=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe "
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/testproto/protobuf-c=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe "
+ DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--relax"
+ LANG="en_US.UTF-8"
+ LC_CTYPE="en_US.UTF-8"
+ LD="xild"
+ LD_LIBRARY_PATH="/opt/intel/lib/intel64_lin:/opt/intel/tbb/lib/intel64/gcc4.7"
+ SOURCE_DATE_EPOCH="1534311423"

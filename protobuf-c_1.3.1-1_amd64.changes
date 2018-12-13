@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Wed, 15 Aug 2018 01:37:03 -0400
+Source: protobuf-c
+Binary: libprotobuf-c-dev libprotobuf-c1 protobuf-c-compiler
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 1.3.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Robert Edmonds <edmonds@debian.org>
+Changed-By: Robert Edmonds <edmonds@debian.org>
+Description:
+ libprotobuf-c-dev - Protocol Buffers C static library and headers (protobuf-c)
+ libprotobuf-c1 - Protocol Buffers C shared library (protobuf-c)
+ protobuf-c-compiler - Protocol Buffers C compiler (protobuf-c)
+Closes: 900621
+Changes:
+ protobuf-c (1.3.1-1) unstable; urgency=medium
+ .
+   * New upstream version 1.3.0
+   * New upstream version 1.3.1
+     - (Closes: #900621.)
+   * debian/control: Update Vcs-* links to use salsa.debian.org URLs
+   * debian/copyright: Format: http -> https
+   * debian/copyright: Add 2017, 2018 to copyright years
+   * debian/control: Bump debhelper build-dependency to >= 10
+   * debian/compat: Bump debhelper compat level to 10
+   * debian/rules: Drop -dbg package in favor of automatically generated
+     -dbgsym package
+   * debian/control: Remove libprotobuf-c1-dbg package
+   * debian/control: Drop build-dependencies that are transitively pulled
+     in by depending on debhelper (>= 10)
+   * debian/rules: Remove hardcoding of DH_VERBOSE=1 environment variable
+   * debian/control: Bump Standards-Version to 4.2.0
+   * debian/rules: Remove "--with autoreconf" from invocation of dh,
+     default since debhelper compat 10
+   * debian/rules: Enable build hardening
+   * debian/libprotobuf-c1.symbols: Update symbols for 1.3.1
+   * debian/control: Drop Provides/Conflicts/Replaces on
+     libprotobuf-c0-dev, which is only present in oldoldstable (wheezy)
+Checksums-Sha1:
+ f5b4ef62bda5ad76b24960c0be5a789ad96c5553 203220 libprotobuf-c-dev_1.3.1-1_amd64.deb
+ 60993f8950507cf984510afdebd2246108b11c79 27688 libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ 9738ddf9a43b803ffe00168cfac4b640f3033c47 30600 libprotobuf-c1_1.3.1-1_amd64.deb
+ 7647226b17cfbf434b5b9a86462ff63bf6c8d991 766220 protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ 5b538899a6249a5e08bc1501ea673934880bd2f5 82852 protobuf-c-compiler_1.3.1-1_amd64.deb
+ d7136907b72f1b21acb19f35395108b659b24916 6395 protobuf-c_1.3.1-1_amd64.buildinfo
+Checksums-Sha256:
+ dc143fa18f4caba8a4bba4edb196528ba2c1bae99606c60af14099cc3f700632 203220 libprotobuf-c-dev_1.3.1-1_amd64.deb
+ bb2bbb6e2e0d8914ccf389661ec74f08bf7d4696bb84c18485d89dbf734aadcf 27688 libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ 4699f3236e811f34f291e98559f36ce11be7be9ad4202f35a6cc7b550cd2f3e8 30600 libprotobuf-c1_1.3.1-1_amd64.deb
+ 3b7e0c5aef753ee460722d2515328704029ca28ac82744cefe153dff4e13ea3d 766220 protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ bbaa973841a628f9a9d2b4569242b2abc36b4574113536a4584637097b4572db 82852 protobuf-c-compiler_1.3.1-1_amd64.deb
+ dc67302b718bb31e087ea211b48e686ddb1e9cbde1128e56bdf90adcf673d169 6395 protobuf-c_1.3.1-1_amd64.buildinfo
+Files:
+ 268fedcdc1e824d1839aeb30d6c0cd42 203220 libdevel optional libprotobuf-c-dev_1.3.1-1_amd64.deb
+ 9989a3ae428f40200be24fd5560f806b 27688 debug optional libprotobuf-c1-dbgsym_1.3.1-1_amd64.deb
+ ee7778d086ae1e00411ae8245dd02f82 30600 libs optional libprotobuf-c1_1.3.1-1_amd64.deb
+ 05ed807280542c37ebb52d61b2aa818d 766220 debug optional protobuf-c-compiler-dbgsym_1.3.1-1_amd64.deb
+ 1c84bcdc36891a5caae957110bf10333 82852 devel optional protobuf-c-compiler_1.3.1-1_amd64.deb
+ c7db5efe666a02391ef09b32fab2199e 6395 devel optional protobuf-c_1.3.1-1_amd64.buildinfo

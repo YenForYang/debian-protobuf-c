@@ -1,0 +1,12 @@
+Package: protobuf-c-compiler-dbgsym
+Source: protobuf-c
+Version: 1.3.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Robert Edmonds <edmonds@debian.org>
+Installed-Size: 804
+Depends: protobuf-c-compiler (= 1.3.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for protobuf-c-compiler
+Build-Ids: 4dc4962226da5e4dc0ff7cbf93a83af73f2cb2ae

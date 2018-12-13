@@ -1,0 +1,2 @@
+debian/tmp/usr/bin/protoc-c
+debian/tmp/usr/bin/protoc-gen-c

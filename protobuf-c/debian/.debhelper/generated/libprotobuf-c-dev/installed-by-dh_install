@@ -1,0 +1,5 @@
+debian/tmp/usr/include/google/protobuf-c/protobuf-c.h
+debian/tmp/usr/include/protobuf-c/protobuf-c.h
+debian/tmp/usr/lib/x86_64-linux-gnu/libprotobuf-c.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libprotobuf-c.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/libprotobuf-c.pc
